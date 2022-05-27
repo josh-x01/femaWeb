@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>text</title>
+	<style> 
+		* {
+			margin:  0px;
+			padding: 0px;
+			box-sizing: border-box;
+			font-family: sans-serif;
+		}
+
+		html {
+			scroll-behavior: smooth;
+		}
+		section {
+			height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: black;
+			scroll-snap-align: start;
+}
+		.container {
+			scroll-snap-type: y proximity;
+			overflow-y: scroll;
+			height: 100vh;
+		}
+		.head {
+			background: #7a1616;
+			height: 25%;
+		}
+		.head div ul li{
+			display: inline-block;
+			padding: 15px;
+			color: white;
+		}
+		.head div ul li p{
+			font-size: 50px;
+		}
+		.one {
+			width: 50%;
+			height: 40%;
+			margin: 3% auto;
+			font-size: 110%;
+			border-radius: 10px;
+			padding: 16%;
+			box-shadow: 0px 0px 20px 0px #888888;
+		}
+
+		.two {
+			background: #282B34;
+			color: white;
+		}
+		.two p {
+			width: 50%;
+			height: 40%;
+			margin: 3% auto;
+			font-size: 120%;
+			border-radius: 10px;
+			padding: 5%;
+			box-shadow: 0px 0px 20px 0px #888888;
+		}
+		.three {
+			
+		}
+		.four {
+
+		}
+		.foot {
+			background: black;
+			height: 60%;
+		}
+		.four p {
+			
+		}
+			
+
+		
+	</style>
+</head>
+<body>
+	<div class=container>
+
+		<section class="head">
+			<div>
+				<ul>
+					<li><h1><p id="head">Fema Snacks<p></h1></li>
+					<li><a href="#sec2">News</a></li>
+					<li>Menu</li>
+					<li>Blog</li>
+					<li>Shop</li>
+					<li>About</li>
+					<li>Contact</li>
+				</ul>
+			</div>	
+		</section>
+
+		<section class="one"> 
+			<p>
+				<img src="stock.jpg" width="720">
+				FEMA SNACKS PLC ድርጅታችን በአሁኑ ሰዓት አክሲዮኖች በመሸጥ ላይ ይገኛል ። 
+				🤔ታዲያ ምን አስበዋል ?? እርሶም አክሲዮን ገዝተው ትርፍማ ይሁኑ እንዳይዘናጉ 
+				ያሉት አክሲዮን ውስን ስለሆኑ እንዳያመልጦ ፈጥነው ይግዙ  ያትርፉ ።
+			</p>
+		</section>
+
+		<section class="two" id="sec2">
+			<p>
+				ሰበር ዜና ‼️‼️
+
+				የፌማ ስናክስ ኃላ/የተ/የግ/ማሕበር በ7.5 ሚሊየን ካፒታል ዛሬ ሕዳር 27/2014 ዓ.ም ተመሰረተ።
+				ለ 4 አመታት የቅድመ ዝግጅት ስራዎች ሲያከናውን የቆየው ተቋም ጥቅል የተጣራ ሀብቱ 7.5 ሚሊየን ብር ደርሶ ወደ ማኑፋክቸሪንግ P.L.C  አድጓል።
+				ይህም በ ኢ.ፌ.ድ.ሪ ንግድ እና ቀጠናዊ ትብብር ሚኒስተር  በአ.አ ከተማ አስተዳደር ተረጋግጧል።
+				ስናክ አምራቹ ተቋም በኢትዮጵያ በዘርፉ የመጀመሪያው አምራች መሆኑን ስናበስር በታላቅ ደስታ ነዉ።
+			</p>
+		</section>
+		<section class="three">
+			<p>page 3</p>
+		</section>
+		<section class="four">
+			<p>page 4</p>
+		</section>
+		<section class="foot">
+			<p>page 5</p>
+		</section> 
+		
+	</div>
+</body>
+</html>

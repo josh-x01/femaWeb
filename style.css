@@ -1,0 +1,67 @@
+html {
+	overflow: scroll;
+	scroll-behavior: smooth;
+}
+#container {
+	overflow: scroll;
+}
+header {
+	overflow: auto;
+	background-color: #7a1616;
+	color: white; 
+	left: 0px;
+	top:  0px;
+	width: 100%;
+	position: fixed;
+}
+ul li{
+	display: inline-block;
+	list-style-type: none;
+	font-size: 100%;
+	padding: 1%;
+	
+}
+#head {
+	font-size: 2em;
+	margin: 0px;
+}
+#page1 {
+	height: 100vh;
+}
+#news1 {
+	position: absolute;
+	top: 0px;
+	top: 30%;
+	width: 30%;
+	left: 15%;
+	font-size: 110%;
+	border-radius: 10px;
+	padding: 2%;
+	box-shadow: 0px 0px 20px 0px #888888;
+}
+#news2 {
+	position: absolute;
+	top: 0px;
+	top: 30%;
+	width: 30%;
+	height: 17%;
+	left: 50%;
+	overflow: scroll;
+	font-size: 110%;
+	border-radius: 10px;
+	padding: 2%;
+	box-shadow: 0px 0px 20px 0px #888888;
+}
+#news3 {
+	position: absolute;
+	bottom: 0px;
+}
+footer {
+	background-color: black;
+	color: white;
+	top: 70%;
+	left: 0px;
+	height: 50%;
+	width: 100%;
+	position: fixed;
+}
